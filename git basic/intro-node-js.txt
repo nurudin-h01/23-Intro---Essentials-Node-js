@@ -1,0 +1,26 @@
+1. Mohon jelaskan apa itu Node.js? Apa perbedannya dengan JavaScript?
+   Node.js merupakan platform JavaScript yang dapat berjalan di backend atau server-side, di komputer kita secara langsung
+
+   Perbedaan antara javascript dan node adalah javascript merupakan bahasa pemrograman yang berjalan di browser dengan engine tertentu sedangkan node sendiri merupaka interpreter yang digunakan untuk menjalankan javascript agar dapat digunakan diluar browser
+
+2. Mohon jelaskan arsitektur dari Node.js?
+   Arsitektur node js menggunakan single thread dimana konsep single thread, yang berarti hanya memiliki satu tumpukan panggilan yang digunakan untuk menjalankan program
+
+3. Apa perbedaan antara Built-in Module, External Module, dan Custom Module pada Node.js?
+  - Built-in Module adalah Modul-modul yang sudah disediakan sejak kita install Nodejs.
+  - External Module adalah Modul yang kita import yang disediakan oleh node package manager (npm)
+  - Custom Module adalah Modul yang tidak ada di dalam build-in dan NPM, modul tersebut dibuat sendiri
+
+
+4. Sebutkan salah satu contoh dari Built-in Module, External Module, dan Custom Module pada Node.js?
+   - Contoh Built-in Module Node js:
+     a) http : untuk melakukan http request dan membuat http server
+     b) path : untuk mengatur file paths
+     c) os : untuk menyediakan informasi mengenai os
+   - Contoh External Module:
+     a) express
+     b) nodemon
+   - Contoh Custom Module:
+     exports.helloWorld = function(){
+      return "hello world"
+     }
